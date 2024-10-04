@@ -1,0 +1,281 @@
+/* Desktop View */
+@media (min-width: 1024px) {
+body {
+        background-color: black;
+        background-image: url(Logo-OB.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    .hero-banner {
+        background-image: url(Likhawit.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 783px;
+    }
+    .container {
+        position: relative;
+        left: 35%;
+        width: 30%;
+        height: 550px;
+        background-color: rgba(0, 0, 0, 0.815);
+        backdrop-filter: blur(5px);
+        border-radius: 30px;
+        border: solid white 2px;
+        margin: 30px 0px 50px 0px;
+    }
+.crescendo img {
+    margin-left: 30%;
+    padding-top: 100px;
+    padding-bottom: 20px;
+ }
+.likhawit {
+    width: 100%;
+}
+.olie img {
+    position: absolute;
+    border-radius: 100%;
+    margin-left: 41%;
+    width: 15%;
+    margin-top: -200px;
+    border: solid 5px;
+}
+.facebook img {
+    position: fixed;
+    width: 10%;
+    top: 82%;
+    left: 17%;
+}
+.facebook img:hover {
+    position: fixed;
+    width: 10%;
+    top: 82%;
+    left: 17%;
+    transition: 0.2s;
+    box-shadow: 0px 0px 11px 11px #b00202;
+    border-radius: 100%;
+}
+.instagram img {
+    position: fixed;
+    width: 10%;
+    top: 82%;
+    left: 46%;
+}
+.instagram img:hover {
+    position: fixed;
+    width: 10%;
+    top: 82%;
+    left: 46%;
+    transition: 0.2s;
+    box-shadow: 0px 0px 11px 11px #b00202;
+    border-radius: 100%;
+}
+.tiktok img {
+    position: fixed;
+    width: 10%;
+    top: 82%;
+    left: 73%;
+}
+.tiktok img:hover {
+    position: fixed;
+    width: 10%;
+    top: 82%;
+    left: 73%;
+    transition: 0.2s;
+    box-shadow: 0px 0px 11px 11px #b00202;
+    border-radius: 100%;
+}
+}
+/* Tablet View */
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        background-color: black;
+        background-image: url(Logo-OB.jpg);
+        background-size: cover;
+    }
+    .hero-banner {
+        background-image: url(Likhawit.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 310px;
+    }
+    .container {
+        position: relative;
+        left: 3%;
+        width: 95%;
+        height: 620px;
+        background-color: rgba(0, 0, 0, 0.815);
+        backdrop-filter: blur(5px);
+        border-radius: 30px;
+        border: solid white 2px;
+        margin: 80px 0px 62px 0px;
+    }
+    .crescendo img {
+        width: 30%;
+        margin-left: 33%;
+        padding-top: 100px;
+        padding-bottom: 20px;
+    }
+    .likhawit  {
+        width: 100%;
+    }
+    .olie img {
+        position: absolute;
+        border-radius: 100%;
+        margin-left: 34%;
+        width: 30%;
+        margin-top: -95px;
+        border: solid;
+        border-width: 5px;
+    }
+    .facebook img {
+        position: fixed;
+        width: 11%;
+        top: 75%;
+        left: 20%;
+        transition: 1s;
+        transform-style: preserve-3d;
+    }
+    .facebook img:hover .facebook img {
+        position: fixed;
+        width: 11%;
+        top: 75%;
+        left: 20%;
+        transition: 0.2s;
+        box-shadow: 0px 0px 11px 11px #b00202;
+        border-radius: 100%;
+    }
+    .instagram img {
+        position: fixed;
+        width: 11%;
+        top: 75%;
+        left: 44%;
+        transition: 1s;
+        transform-style: preserve-3d;
+    }
+    .instagram img:hover {
+        position: fixed;
+        width: 11%;
+        top: 75%;
+        left: 44%;
+        transition: 0.2s;
+        box-shadow: 0px 0px 11px 11px #b00202;
+        border-radius: 100%;
+    }
+    .tiktok img {
+        position: fixed;
+        width: 12%;
+        top: 75%;
+        left: 67%;
+        transition: 1s;
+        transform-style: preserve-3d;
+    }
+    .tiktok img:hover {
+        position: fixed;
+        width: 12%;
+        top: 75%;
+        left: 67%;
+        transition: 0.2s;
+        box-shadow: 0px 0px 11px 11px #b00202;
+        border-radius: 100%;
+    }
+    }
+/* <-- Mobile View --> */
+@media (max-width: 767px) {
+    body {
+        background-color: black;
+        background-image: url(Logo-OB.jpg);
+        background-size: cover;
+    }
+    .hero-banner {
+        background-image: url(Likhawit.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 155px;
+    }
+    .container {
+        position: relative;
+        left: 3%;
+        width: 95%;
+        height: 620px;
+        background-color: rgba(0, 0, 0, 0.815);
+        backdrop-filter: blur(5px);
+        border-radius: 30px;
+        border: solid white 2px;
+        margin: 30px 0px 50px 0px;
+    }
+    .crescendo img {
+        margin-left: 19%;
+        padding-top: 100px;
+        padding-bottom: 20px;
+     }
+    .likhawit  {
+        width: 100%;
+    }
+    .olie img {
+        position: absolute;
+        border-radius: 100%;
+        margin-left: 26%;
+        width: 40%;
+        margin-top: -95px;
+        border: solid;
+        border-width: 5px;
+    }
+    .facebook img {
+        position: fixed;
+        width: 17%;
+        top: 82%;
+        left: 14%;
+        transition: 1s;
+        transform-style: preserve-3d;
+    }
+    .facebook img:hover .facebook img {
+        position: fixed;
+        width: 17%;
+        top: 82%;
+        left: 14%;
+        transition: 0.2s;
+        box-shadow: 0px 0px 11px 11px #b00202;
+        border-radius: 100%;
+    }
+    .instagram img {
+        position: fixed;
+        width: 17%;
+        top: 82%;
+        left: 42%;
+        transition: 1s;
+        transform-style: preserve-3d;
+    }
+    .instagram img:hover {
+        position: fixed;
+        width: 17%;
+        top: 82%;
+        left: 42%;
+        transition: 0.2s;
+        box-shadow: 0px 0px 11px 11px #b00202;
+        border-radius: 100%;
+    }
+    .tiktok img {
+        position: fixed;
+        width: 18%;
+        top: 82%;
+        left: 69%;
+        transition: 1s;
+        transform-style: preserve-3d;
+    }
+    .tiktok img:hover {
+        position: fixed;
+        width: 18%;
+        top: 82%;
+        left: 69%;
+        transition: 0.2s;
+        box-shadow: 0px 0px 11px 11px #b00202;
+        border-radius: 100%;
+    }
+    }
